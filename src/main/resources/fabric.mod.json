@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "optabfabric",
+  "version": "${version}",
+  "name": "OpTab Fabric",
+  "description": "Adds a creative tab with OP items.",
+  "authors": [
+    "tmquan2508"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/optabfabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.tmquan2508.optabfabric.OpTabFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21"
+  }
+}
