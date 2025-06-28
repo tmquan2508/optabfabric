@@ -30,7 +30,7 @@ public class OpTabFabric implements ModInitializer {
     @Override
     public void onInitialize() {
         Registry.register(Registries.ITEM_GROUP, ITEM_GROUP, FabricItemGroup.builder()
-                .icon(() -> new ItemStack(Items.NETHERITE_SWORD))
+                .icon(() -> new ItemStack(Items.COMMAND_BLOCK))
                 .displayName(Text.literal("Op Tab"))
                 .entries((displayContext, entries) -> {
                     getItems(displayContext).forEach(entries::add);

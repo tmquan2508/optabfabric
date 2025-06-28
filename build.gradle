@@ -45,13 +45,3 @@ jar {
 		rename { "${it}_${inputs.properties.archivesName}"}
 	}
 }
-
-// configure the maven publication
-publishing {
-	publications {
-		create("mavenJava", MavenPublication) {
-			artifactId = project.archives_base_name
-			from components.java
-		}
-	}
-}

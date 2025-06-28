@@ -7,7 +7,10 @@
   "authors": [
     "tmquan2508"
   ],
-  "contact": {},
+  "contact": {
+    "sources": "https://github.com/tmquan2508/optabfabric",
+    "issues": "https://github.com/tmquan2508/optabfabric/issues"
+  },
   "license": "MIT",
   "icon": "assets/optabfabric/icon.png",
   "environment": "*",
@@ -17,8 +20,8 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.16.0",
+    "fabricloader": ">=0.16.14",
     "fabric-api": "*",
-    "minecraft": "~1.21"
+    "minecraft": [">=1.21 <=1.21.6"]
   }
 }
