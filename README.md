@@ -10,6 +10,7 @@ This mod is inspired by [Op Tab](https://modrinth.com/mod/optab)
 
 # Build with source
 1. Set up enviroment
+
 - Install JDK 21
 
 2. Clone repository
